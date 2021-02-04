@@ -1,0 +1,13 @@
+
+ .footer-bottom-text {
+     text-align: center;
+     background-color:#233e62;
+     line-height: 75px;
+     color:  white;
+     font-size: medium;
+     margin-bottom: 0px;
+ }
+ .position{
+     position: static;
+ }
+ 

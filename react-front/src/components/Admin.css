@@ -1,0 +1,47 @@
+.bg-admin {
+  background-color: #f2f2f2;
+}
+.navAdmin {
+  border: 1px solid white;
+  border-radius: 0px;
+  background-color: #233e62;
+}
+.h1 {
+  font-weight: 60;
+  color: white;
+}
+.color-fa{
+  color: white;
+}
+#navBorder-color {
+  border-color: white;
+}
+nav {
+  background-color: white;
+  width: 100% !important;
+}
+.fontNav {
+  color: white;
+  font-size: 15px;
+}
+
+.btn-form1 {
+  margin-left: 1px;
+  margin-top: -78px;
+  border-radius: 0px;
+  height: 50px;
+  background-color: #233e62;
+}
+.btn-form1:hover {
+  background-color: #233e62;
+}
+.search {
+  border-radius: 0px;
+  height: 50px;
+  margin-left: 67px;
+  width: 85%;
+}
+
+button > .fa-upload {
+  color: white;
+}

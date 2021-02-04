@@ -1,0 +1,28 @@
+.input-group input {
+  border-radius: 0px;
+}
+.input-group {
+  border-radius: 0px;
+}
+#thead-white {
+  background-color: white;
+}
+.icon-color {
+  color: crimson;
+}
+
+.icon-color1 {
+  color: darkgreen;
+}
+
+.btn-guardar-registro {
+  background-color: #233e62;
+  color: white;
+}
+.btn-guardar-registro:hover {
+  background-color: #233e62;
+  border-color: #233e62;
+}
+#select{
+  border:1px solid gainsboro;
+}

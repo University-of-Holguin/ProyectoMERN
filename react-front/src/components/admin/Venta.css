@@ -1,0 +1,11 @@
+.card-height{
+    height: 1%;
+}
+.btn-guardar-registro {
+    background-color: #233e62;
+    color: white;
+  }
+  .btn-guardar-registro:hover {
+    background-color: #233e62;
+    border-color:#233e62;
+  }

@@ -1,0 +1,10 @@
+input,
+textarea,
+label {
+  border-radius: 0px !important;
+}
+
+.btn-subir-image{
+background-color: #233e62;
+color: white;
+}

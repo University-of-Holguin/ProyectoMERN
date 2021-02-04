@@ -1,0 +1,52 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "aos": "^2.3.4",
+    "audit": "0.0.6",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "fix": "0.0.6",
+    "flip": "github:nnattawat/flip",
+    "moment": "^2.29.1",
+    "node-sass": "^4.14.1",
+    "pg": "^7.18.2",
+    "react": "^16.13.1",
+    "react-axios": "^2.0.3",
+    "react-bootstrap": "^1.1.0",
+    "react-card-flip": "^1.0.10",
+    "react-dom": "^16.13.1",
+    "react-modal": "^3.11.2",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.1",
+    "react-toastify": "^6.0.8",
+    "reactstrap": "^8.5.1",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
