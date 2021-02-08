@@ -1,0 +1,22 @@
+
+.completed {
+	text-decoration: line-through;
+	opacity: 0.5;
+}
+
+.todo-item {
+	padding: 0rem 0.5rem;
+}
+
+.container{
+	margin-top: 4%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+body{
+	background:powderblue;
+}
+.todo-lista{
+	margin-left: -3.6%;
+}
