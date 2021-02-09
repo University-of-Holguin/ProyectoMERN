@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import TodoList from './components/TodoList'
 import Form from './components/Form'
-import Header from './components/header'
+import Header from './components/Header'
 
 function App() {
   //States
@@ -52,12 +52,13 @@ function App() {
       setTodos(localTodos)
     }
   }
+  console.log(todos==[])
   return (
     <div className="App container">
       <div className="row">
         <Header />
         <Form setInputText={setInputText} todos={todos} setTodos={setTodos} inputText={inputText} setStatus={setStatus} />
-        <TodoList todos={todos} setTodos={setTodos} filteredTodos={filteredTodos} />
+        {todos.length==0? <h3>No hay Tareas</h3>:<TodoList todos={todos} setTodos={setTodos} filteredTodos={filteredTodos} /> }
       </div>
 
     </div>
