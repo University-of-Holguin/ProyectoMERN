@@ -6,6 +6,5 @@ Dependencias:
 "react-dom": "^16.10.2",
 "react-scripts": "3.2.0"
 
-Luego escribir el comando
-### `npm start` 
-en la consola
+Luego en el cmd escribir el comando
+### `npm start`
