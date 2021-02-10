@@ -1,11 +1,11 @@
 import React from "react";
 const Form = ({inputText, setInputText, todos, setTodos, setStatus}) => {
-	//Entrando la tarea mediante javascript
 
+	//Entrando el nombre de la tarea
 	const inputTarea = (e) => {
 		setInputText(e.target.value);
 	};
-
+//Creando la tarea y pasando al listado de tareas
 	const sudmitTodo = (e) => {
 		e.preventDefault();
 		if (inputText) {
@@ -18,34 +18,34 @@ const Form = ({inputText, setInputText, todos, setTodos, setStatus}) => {
 			alert("Entre una tarea por favor");
 		}
 	};
-
+//Buscador de tareas especificas.
 	const statusHundler = (e) => {
 		setStatus(e.target.value);
 	};
 	return (
-		<div className="col-lg-12">
-			<form className="row">
-				<div className="form-group">
-					<input
-						type="text"
-						required
-						className="todo-input form-control"
-						onChange={inputTarea}
-						value={inputText}
-					/>
-				</div>
-				<div className="form-group">
-					<button
-						id="button"
-						onClick={sudmitTodo}
-						className="todo-button form-control btn btn-"
-						type="submit"
-					>
-						<i className="fa fa-plus-square"></i>
-					</button>
-				</div>
-				<div className="form-group">
-					<div className="select">
+		<React.Fragment>
+			<div className="col-lg-12">
+				<form className="row">
+					<div className="form-group">
+						<input
+							type="text"
+							required
+							className="todo-input form-control"
+							onChange={inputTarea}
+							value={inputText}
+						/>
+					</div>
+					<div className="form-group">
+						<button
+							id="button"
+							onClick={sudmitTodo}
+							className="form-control"
+							type="submit"
+						>
+							ADD<i className="fa fa-plus-square"></i>
+						</button>
+					</div>
+					<div className="form-group">
 						<select
 							onChange={statusHundler}
 							name="todos"
@@ -56,9 +56,9 @@ const Form = ({inputText, setInputText, todos, setTodos, setStatus}) => {
 							<option value="uncompleted">Tareas por hacer</option>
 						</select>
 					</div>
-				</div>
-			</form>
-		</div>
+				</form>
+			</div>
+		</React.Fragment>
 	);
 };
 export default Form;
